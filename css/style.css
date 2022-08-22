@@ -23,6 +23,15 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 
+.icon-bg {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-bg:hover {
+    color: #ff4c68;
+}
+
 .nav-item {
     padding: 0 18px;
 }
@@ -49,6 +58,22 @@ h1 {
 }
 
 /* ID Selectors */
+#features {
+    text-align: center;
+}
+
+#features h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#features p {
+    color: #8f8f8f;
+    margin-bottom: 5rem;
+    padding: 0 10% 10%;
+}
+
 #title {
     background-color: #ff4c68;
     color: #fff;
