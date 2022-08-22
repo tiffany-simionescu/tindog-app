@@ -21,6 +21,10 @@ h2 {
 }
 
 /* Class Selectors */
+.carousel-item {
+    padding: 7% 15%;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -105,6 +109,5 @@ h2 {
 #testimonials {
     background-color: #ef8172;
     color: #fff;
-    padding: 7% 15%;
     text-align: center;
 }
