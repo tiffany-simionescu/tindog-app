@@ -94,6 +94,20 @@ h2 {
 }
 
 /* ID Selectors */
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta h3 {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
 #features {
     background-color: #fff;
     padding: 7% 15%;
@@ -112,6 +126,16 @@ h2 {
     color: #8f8f8f;
     margin-bottom: 5rem;
     padding: 0 5% 10%;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer i {
+    margin: 20px 10px;
+    font-size: 1.5rem;
 }
 
 #press {
