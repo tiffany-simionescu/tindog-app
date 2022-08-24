@@ -86,16 +86,8 @@ h2 {
     position: absolute;
     right: 30%;
     transform: rotate(25deg);
-    /* transform-origin: bottom right; */
     width: 60%;
-    /* z-index: -1; */
 }
-
-/* @media (max-width: 1028px) {
-    .title-image {
-        position: static;
-    }
-} */
 
 .title-image-container {
     position: relative;
@@ -106,9 +98,6 @@ h2 {
     background-color: #fff;
     padding: 7% 15%;
     position: relative;
-    /* margin-top: -200px;
-    padding-top: 100px;
-    position: relative; */
     text-align: center;
     z-index: 1;
 }
@@ -145,4 +134,20 @@ h2 {
     background-color: #ef8172;
     color: #fff;
     text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+    /* Element Selectors */
+
+    /* Class Selectors */
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    /* ID Selectors */
+    #title {
+        text-align: center;
+    }
 }
