@@ -67,6 +67,10 @@ h2 {
     width: 15%;
 }
 
+.pricing-column {
+    padding: 3% 2%;
+}
+
 .testimonial-image {
     border-radius: 100%;
     margin: 20px;
@@ -98,6 +102,11 @@ h2 {
 #press {
     background-color: #ef8172;
     padding-bottom: 3%;
+    text-align: center;
+}
+
+#pricing {
+    padding: 100px;
     text-align: center;
 }
 
