@@ -6,28 +6,26 @@
 body {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    text-align: center;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
     font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Class Selectors */
+.big-heading {
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
-h2 {
-    font-family: 'Montserrat';
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-/* Class Selectors */
-.carousel-item {
-    padding: 7% 15%;
-}
-
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 .container-overlap {
@@ -37,6 +35,10 @@ h2 {
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 .icon-bg {
@@ -68,6 +70,11 @@ h2 {
     font-weight: bold;
 }
 
+.pink-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
 .press-logo {
     margin: 20px 20px 50px;
     width: 15%;
@@ -77,10 +84,25 @@ h2 {
     padding: 3% 2%;
 }
 
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .testimonial-image {
     border-radius: 100%;
     margin: 20px;
     width: 10%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .title-image {
@@ -94,26 +116,13 @@ h2 {
     position: relative;
 }
 
-/* ID Selectors */
-#cta {
-    background-color: #ff4c68;
-    padding: 7% 15%;
-    text-align: center;
-}
-
-#cta h3 {
-    color: #fff;
-    font-family: 'Montserrat';
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-#features {
+.white-section {
     background-color: #fff;
-    padding: 7% 15%;
+}
+
+/* ID Selectors */
+#features {
     position: relative;
-    text-align: center;
     z-index: 1;
 }
 
@@ -124,14 +133,8 @@ h2 {
 }
 
 #features p {
-    color: #8f8f8f;
     margin-bottom: 5rem;
     padding: 0 5% 10%;
-}
-
-#footer {
-    padding: 7% 15%;
-    text-align: center;
 }
 
 #footer i {
@@ -142,29 +145,23 @@ h2 {
 #press {
     background-color: #ef8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 #pricing {
     padding: 100px;
-    text-align: center  ;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
-    text-align: center;
 }
 
 /* Media Queries */
 @media (max-width: 1028px) {
-    /* Element Selectors */
-
     /* Class Selectors */
     .title-image {
         position: static;
